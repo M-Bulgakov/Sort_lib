@@ -5,7 +5,7 @@ def bubble_sort(l):
         for j in range(len(l) - i -1):
 
             if l[j] > l[j + 1]:
-                l[j], l[j + 1)] = l[j + 1], l[j]
+                l[j], l[j + 1] = l[j + 1], l[j]
 
     return l
 
@@ -59,41 +59,6 @@ def nes_quik_sort(listus):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-'''def pizda_sort(xuem):
-    xyem =[]
-    return xuem,('po ebalu')'''
 
 
 
