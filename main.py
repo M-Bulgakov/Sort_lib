@@ -45,8 +45,37 @@ def insertion_sort(listium):
 def nes_quik_sort(listus):
     from random import randint
     b = listus[randint(0, len(listus))]
+    less_arr = []
+    bigger_arr = []
+    for i in range(len(listus)):
 
-    for i in range()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
