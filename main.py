@@ -41,17 +41,23 @@ def insertion_sort(listium):
 
     return listium
 
+def nes_quick_sort(array):
+    less = []
+    equal = []
+    greater = []
 
-def nes_quik_sort(listus):
-    from random import randint
-    b = listus[randint(0, len(listus))]
-    less_arr = []
-    bigger_arr = []
-    for i in range(len(listus)):
-
-
-
-
+    if len(array) > 1:
+        pivot = array[0]
+        for x in array:
+            if x < pivot:
+                less.append(x)
+            if x == pivot:
+                equal.append(x)
+            if x > pivot:
+                greater.append(x)
+            nes_quick_sort(less)
+            nes_quick_sort(pivot)
+            nes_quick_sort(greater)
 
 
 
